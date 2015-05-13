@@ -54,5 +54,6 @@ function checkAnswer(){
 
 $(document).ready(function() {
    showQuestion();
+   
 });
 
