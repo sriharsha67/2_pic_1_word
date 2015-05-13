@@ -9,6 +9,25 @@ body {
     text-align: center;
 }
 
+#postn{
+    display: inline-block;
+    left: 0;
+    right: 0;
+    width: 500px;
+}
+
+#pos{
+    display: inline-block;
+    left: 0;
+    float: left;
+}
+
+#posn{
+    display: inline-block;
+    right: 0;
+    float: right;
+}
+
 #images{
     margin: 25px 0px;
 }
