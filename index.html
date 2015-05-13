@@ -3,8 +3,54 @@
 <head>
   <title>2 Pics 1 word</title>
   <link rel="stylesheet" href="stylesheet/styles.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="javascript/game.js"></script>
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <h1>Level 1</h1>
+      <div id="postn">
+        Lives:  
+        <span>Timer:</span>  
+      </div>
+      <div id="images">
+        <img src="images/1.jpg" alt="pic1">
+        <img src="images/2.jpg" alt="pic2" height="195px">
+      </div>
+      <div id="hint_table">
+        <table class="hint">
+          <tr>
+            <td class="hint_data">S
+            </td>
+            <td class="hint_data">S
+            </td>
+            <td class="hint_data">S
+            </td>
+            <td class="hint_data">S
+            </td>
+            <td class="hint_data">S
+            </td>
+          </tr>
+          <tr>
+            <td class="hint_data">S
+            </td>
+            <td class="hint_data">S
+            </td>
+            <td class="hint_data">S
+            </td>
+            <td class="hint_data">S
+            </td>
+            <td class="hint_data">S
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="tab_pos">
+        <input id="form_text" type="text">
+        <span id="button_pos"><button onclick="checkAnswer()">Submit</button></span>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
